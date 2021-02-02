@@ -15,4 +15,4 @@ The input in input.txt corresponds to problem.pdf where 1 is A, 2 is B, . . ., 2
 28 is the Goal vertex. The four colors are R (red), G (green), Y (yellow) and B (blue).
 
 The output is printed to the console and saved in a file called output.txt by default but can be changed as
-the contents of the second argument.
+the contents of the second argument. Program will also create a png of the graph from the input file.
