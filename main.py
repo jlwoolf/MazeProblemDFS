@@ -160,7 +160,13 @@ class DFS:
                 soln.insert(0, "R " + str(end[0]))
             end = parent
 
+        outputFilename = "output.txt"
+        if len(sys.argv) == 3:
+            outputFilename = sys.argv[2]
+
+        output = open(outputFilename, "w")
         for line in soln:
+            output.write(line + '\n')
             print(line)
 
 
