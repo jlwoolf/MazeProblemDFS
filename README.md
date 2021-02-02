@@ -1,4 +1,4 @@
-#Maze Problem solved using DFS
+# Maze Problem solved using DFS
 
 Implementation of Depth First Search to solve maze problem outlined in the problem pdf. Input file provided is the same as problem.pdf but any file can
 be provided following this input format:
